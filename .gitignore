@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+.vscode
+.ionide
+.DS_Store
+
+gcm.cache
+*.o
+*.exe
+*.log
+
+tmp*
+core.*
+a.out
+
+.fake
