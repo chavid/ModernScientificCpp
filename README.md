@@ -3,7 +3,7 @@
 
 This set of notebooks will first guide you through the modern C++ syntax. It will be the basement for the later understanding of modern C++ standard library, your first tool for scientific computing. You can download this training materials thanks to the commmand:
 ```sh
-git clone https://gitlab.in2p3.fr/chamont/modernscientificcpp.git ModernScientificCpp
+git clone https://github.com/chavid/ModernScientificCpp.git
 ```
 
 The course is organized as an alternation of days in common (physically or virtually) and weeks of intersession during which you have to do exercises individually, at a rate of 1h30 per day. 
