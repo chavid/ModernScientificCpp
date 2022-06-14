@@ -41,16 +41,15 @@ Topics more focused on the standard library, new good practices, and various pro
 
 Read the [core guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines),
 practice the **new standard library**, and work on your **personal code**.
-<!--
+
 ## [Third collective day](5-ClassRoom/en.index.md)
 
 Some themes more specific to scientific computing: giving units to values, control the accuracy of its calculation, optimize its data structure. Plus an overview of C++20.
 
-* Morning 1 (1h30) : [Quantities and units](1-QuantitiesAndUnits/README.ipynb)
+* Morning 1 (1h30) : [Profiling](1-Profiling/README.ipynb)
 * Morning 2 (1h30) : [Floating point computing](2-FloatingPointComputing/README.ipynb)
-* Afternoon 1 (1h30) : [Optimisation](3-Optimisation/README.ipynb)
-* Afternoon 2 (1h30) : [A glimpse to C++20](4-Cpp20Glimpse/README.ipynb)
--->
+* Afternoon 1 (1h30) : [Optimization](3-Optimization/README.ipynb)
+* Afternoon 2 (1h30) : [Quantities and units](4-QuantitiesAndUnits/README.ipynb)
 
 ## Some external resources
 
