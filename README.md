@@ -8,7 +8,7 @@ git clone https://github.com/chavid/ModernScientificCpp.git
 
 The course is organized as an alternation of days in common (physically or virtually) and weeks of intersession during which you have to do exercises individually, at a rate of 1h30 per day. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.in2p3.fr%2Fchamont%2Fmodernscientificcpp.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
 ## [First collective day](1-ClassRoom/en.index.md)
 
