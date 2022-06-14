@@ -18,6 +18,3 @@ The usual dirty workarounds applies : before pulling, either move globally your 
 
 If you prefer to solve the conflicts, `git diff`  will not help much. The right command is rather `nbdiff` , which is not available by default (till now) in the linux distributions. You will need to install the `nbdime` package first, for example with the command `conda install -y -c conda-forge nbdime`.
 
-TO BE INVESTIGATED:
-- https://jupytext.readthedocs.io/en/latest/
-- https://mybinder.org/

@@ -9,10 +9,10 @@ The more we progress in the lessons, the more advanced C++ features we will use:
 
 For some of the exercices, you will need to have **GNU time** installed where you want to execute the scripts. Try the command `\time -f "%U" echo toto` to check if it works fine. The `\` is there to avoid that bash use its own internal time command. If it does not work properly, try `conda install -c conda-forge time` (for example). 
 
-## If you want to work with the notebooks
+## If you want to intereact with the notebooks
 
 Most of the education materials is given as notebooks. You can read them on the [public project](https://gitlab.in2p3.fr/chamont/modernscientificcpp), and copy/paste the C++ extracts. Yet, if you want to play the notebooks directly on your machine, you will need to install:
-1. `git` and `git-lfs` so to dowload the files (see en.teaching-material.md) ;
+1. `git` and `git-lfs` so to download the files (see en.teaching-material.md) ;
 2. [jupyter](https://jupyter.org/) ecosystem ;
 3. [xeus-cling](https://xeus-cling.readthedocs.io/en/latest/) C++ kernels for notebooks.
 

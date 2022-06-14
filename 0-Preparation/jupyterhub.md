@@ -12,8 +12,8 @@
 ## Download the course material on the server
 
 - At the "almost top" right corner of the windows, ask for `New`/`Terminal`.
-- Get the material : `git clone https://gitlab.in2p3.fr/chamont/modernscientificcpp.git ModernScientificCpp`.
-- Go back to your previous brwser window.
+- Get the material : `git clone https://github.com/chavid/ModernScientificCpp.git ModernScientificCpp`.
+- Go back to your previous browser window.
 
 ## Read the material
 

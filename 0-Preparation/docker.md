@@ -1,13 +1,11 @@
 
 # Use of predefined docker images
 
-If you want to run the notebooks locally on your workstation, the image to be used for most notebooks and examples is `gitlab-registry.in2p3.fr/chamont/modernscientificcpp/default:v4`.
+If you want to run the notebooks locally on your workstation, the image to be used for most notebooks and examples is `chavid/modern-scientific-cpp` (available from the docker hub).
 
-In case you need a more advanced compiler features, which cannot be handled by the xeus-cling notebook kernel, you should rather rely on `gitlab-registry.in2p3.fr/chamont/modernscientificcpp/advanced:v4`. This image should be used for the advanced notebooks where the kernel is a Python one, and the extracts execution is delegated to the underlying system, through %%file and ! magic instructions.
-
-So to start a container with any of those images :
+So to start a container with this image :
 ```
-docker run -it --rm -p 8888:8888 -v $PWD:/work -w /work <THE-IMAGE-PATH> bash
+docker run -it --rm -p 8888:8888 -v $PWD:/work -w /work chavid/modern-scientific-cpp bash
 ```
 
 Then you can start the usual notebook server:
