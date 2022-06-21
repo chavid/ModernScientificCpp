@@ -10,7 +10,8 @@ The course is organized as an alternation of days in common (physically or virtu
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
-## [First collective day](1-ClassRoom/en.index.md)
+
+## [First collective day](1-ClassRoom/README.md)
 
 Revisions and first introduction to new syntax. We take this opportunity to get to know each other, create accounts on the forum that will be used during the intersessional period, and to become familiar with notebooks.
 
@@ -19,7 +20,7 @@ Revisions and first introduction to new syntax. We take this opportunity to get 
 * Afternoon 1 (1h30) : [New syntax](1-ClassRoom/3-NewSyntaxes/README.ipynb)
 * Afternoon 2 (1h30) : [Coding dojo](1-ClassRoom/4-CodingDojo/en.index.md)
 
-## [First inter-session](2-HomeWork/en.index.md)
+## [First inter-session](2-HomeWork/README.md)
 
 More in-depth study of **new C++ syntax**, and work on **personal code**.
 
@@ -28,7 +29,7 @@ More in-depth study of **new C++ syntax**, and work on **personal code**.
 * Day 3 (1h30) : [Always more templates](2-HomeWork/3-Generic/README.ipynb)
 * Day 4 (1h30) : [First steps in functional programming](2-HomeWork/4-Functional/README.ipynb)
 
-## [Second collective day](3-ClassRoom/en.index.md)
+## [Second collective day](3-ClassRoom/README.md)
 
 Topics more focused on the standard library, new good practices, and various programming styles.
 
@@ -37,18 +38,18 @@ Topics more focused on the standard library, new good practices, and various pro
 * Afternoon 1 (1h30) : [Functional programming](3-ClassRoom/3-FunctionalProgramming/README.md)
 * Afternoon 2 (1h30) : [Concurrent programming](3-ClassRoom/4-ConcurrentProgramming/README.md)
 
-## [Second intersession](4-HomeWork/en.index.md)
+## [Second intersession](4-HomeWork/README.md)
 
 Read the [core guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines),
 practice the **new standard library**, and work on your **personal code**.
 
-## [Third collective day](5-ClassRoom/en.index.md)
+## [Third collective day](5-ClassRoom/README.md)
 
 Some themes more specific to scientific computing: giving units to values, control the accuracy of its calculation, optimize its data structure. Plus an overview of C++20.
 
 * Morning 1 (1h30) : [Profiling](1-Profiling/README.ipynb)
-* Morning 2 (1h30) : [Floating point computing](2-FloatingPointComputing/README.ipynb)
-* Afternoon 1 (1h30) : [Optimization](3-Optimization/README.ipynb)
+* Morning 2 (1h30) : [Optimization](2-Optimization/README.ipynb)
+* Afternoon 1 (1h30) : [Floating point computing](3-FloatingPointComputing/README.ipynb)
 * Afternoon 2 (1h30) : [Quantities and units](4-QuantitiesAndUnits/README.ipynb)
 
 ## Some external resources
