@@ -1,4 +1,4 @@
-FROM chavid/modern-scientific-cpp:v0
+FROM chavid/devjupytercpp:2024.2
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000
