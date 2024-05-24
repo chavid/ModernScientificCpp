@@ -9,9 +9,9 @@ git clone https://github.com/chavid/ModernScientificCpp.git
 
 Those sections are availables, or will be soon:
 - [Preparation before the course](0-Preparation/README.md)
-- [From early C++ problems to modern C++ syntax]()
-- [Programming idioms and standard library]()
-- [C++ for scientific computing]()
+- From early C++ problems to modern C++ syntax
+- Programming idioms and standard library
+- C++ for scientific computing
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
