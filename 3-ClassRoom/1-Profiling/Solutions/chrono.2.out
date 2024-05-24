@@ -1,5 +1,0 @@
-> ./chrono.2.py 10 chrono.1.cpp 1024 100000
-0.525744 0.525744
-(gen mean time: 14.7)
-(ana1 mean time: 2761842)
-(ana2 mean time: 1319491)

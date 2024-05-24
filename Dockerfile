@@ -1,4 +1,4 @@
-FROM chavid/devjupytercpp:2024.2
+FROM chavid/devjupytercpp:2024.3
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000

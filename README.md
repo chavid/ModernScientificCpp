@@ -1,50 +1,20 @@
 
 # Modern Scientific C++
 
-This set of notebooks will first guide you through the modern C++ syntax. This will be the basement for the later understanding of modern C++ standard library, your first tool for scientific computing. You can download this training materials thanks to the commmand:
+This training material addresses modern scientific computing in C++, for people who already have some experience in legacy C++ programming (before C++ 11). You can download the whole set thanks to the commmand:
+
 ```sh
 git clone https://github.com/chavid/ModernScientificCpp.git
 ```
 
-The course is organized as an alternation of days in common (physically or virtually) and optional weeks of intersession during which you have to do exercises individually, at a rate of 1h30 per day. 
+Those sections are availables, or will be soon:
+- [Preparation before the course](0-Preparation/README.md)
+- [From early C++ problems to modern C++ syntax](1-ClassRoom/README.md)
+- [Programming idioms and standard library](2-ClassRoom/README.md)
+- [C++ for scientific computing](3-ClassRoom/README.md)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
-
-<!--
-
-## [Preparation before the course](0-Preparation/README.md)
-
-## [First collective day](1-ClassRoom/README.md)
-
-Problems central to early C++, best practices that address them, now syntactical innovations in modern C++.
-
-* Morning   1 (1h30) : [Get in touch](1-ClassRoom/1-/)
-* Morning   2 (1h30) : [Revisions](1-ClassRoom/2-/)
-* Afternoon 1 (1h30) : [New syntax](1-ClassRoom/3-/)
-* Afternoon 2 (1h30) : [Coding dojo](1-ClassRoom/4-/)
-
-## [Second collective day](2-ClassRoom/README.md)
-
-Topics more focused on the standard library, new good practices, and various programming styles.
-
-* Morning 1 (1h30) : [Cpp Core Guidelines & Guideline Support Library](3-ClassRoom/1-CoreGuidelines/README.md)
-* Morning 2 (1h30) : [Template meta-programming](3-ClassRoom/2-TemplateMetaProgramming/README.md)
-* Afternoon 1 (1h30) : [Functional programming](3-ClassRoom/3-FunctionalProgramming/README.md)
-* Afternoon 2 (1h30) : [Concurrent programming](3-ClassRoom/4-ConcurrentProgramming/README.md)
-
-## [Third collective day](3-ClassRoom/README.md)
-
-Some themes more specific to scientific computing: giving units to values, control the accuracy of its calculation, optimize its data structure.
-
-- Morning 1 (1h30) : [Profiling](1-Profiling/README.ipynb)
-- Morning 2 (1h30) : [Optimization](2-Optimization/README.ipynb)
-- Afternoon 1 (1h30) : [Floating point computing](3-FloatingPointComputing/README.ipynb)
-- Afternoon 2 (1h30) : [Quantities and units](4-QuantitiesAndUnits/README.ipynb)
-
-## [To go further after the course](4-ToGoFurther/README.md)
-
--->
 
 ## Some external resources
 
