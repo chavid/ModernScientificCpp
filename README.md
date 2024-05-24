@@ -13,6 +13,7 @@ Those sections are availables, or will be soon:
 - Programming idioms and standard library
 - C++ for scientific computing
 
+If you want to play the notebooks on a turnkey server, you can try the following binder link:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
