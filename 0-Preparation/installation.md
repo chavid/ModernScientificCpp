@@ -1,9 +1,15 @@
 
 # What should I install ?
 
-## For raw compilation : g++ 11.2, a C++20 compiler
+## For raw compilation: GCC
 
-The more we progress in the lessons, the more advanced C++ features we will use: mostly C++17, and C++20 for few demonstrations. It is therefore adviced to have a recent enough compiler, such as **gcc 9**, or even **gcc 11.2** which we use for the preparation of this course. You will find [here](https://en.cppreference.com/w/cpp/compiler_support) the table of which C++ feature is supported by which compiler version. You should be aware that there is often a distinction between language syntax and standard library : a compiler version which supports C++20 language features does not necessarily supports the complete C++20 standard library. Generally, the support for syntax is implemented first, and the library novelties comes progressively with later versions.
+The more we progress in the lessons, the more advanced C++ features we will use: mostly C++17, and C++20/23 for few demonstrations. It is therefore adviced to have a recent enough compiler. This course was prepared with **GCC 13.2**. You will find [here](https://en.cppreference.com/w/cpp/compiler_support) the table of which C++ feature is supported by which compiler version. You should be aware that there is often a distinction between language syntax and standard library : a compiler version which supports C++20 language features does not necessarily supports the complete C++20 standard library. Generally, the support for syntax is implemented first, and the library novelties comes progressively with later versions.
+
+A subset oif exercices may not be doable depending on yoru GCC release:
+- C++17 structured bindings requires: GCC 8.
+- C++20 concepts requires: GCC 10.
+- C++20 modules requires: GCC 11.
+- C++23 standard names and library support for extended floating-point types requires: GCC 13.
 
 ## GNU time
 
