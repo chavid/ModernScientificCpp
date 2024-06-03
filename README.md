@@ -9,7 +9,7 @@ git clone https://github.com/chavid/ModernScientificCpp.git
 
 Those sections are availables, or will be soon:
 - [Preparation before the course](0-Preparation/README.md)
-- [From early C++ problems to modern C++ syntax](1-ClassRoom/README.ipynb)
+- [From early C++ problems to modern C++ syntax](1-ClassRoom/README.md)
 - Programming idioms and standard library
 - C++ for scientific computing
 
