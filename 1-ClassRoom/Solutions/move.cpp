@@ -23,13 +23,13 @@ class Text
       if (m_size) std::copy(t.m_data,t.m_data+m_size+1,m_data) ;
      }
     
-    Text( Text && t )
-     : m_size(t.m_size),
-       m_data(t.m_data)
+    Text( Text && other )
+     : m_size(other.m_size),
+       m_data(other.m_data)
      {
       std::cout<<"move constructor"<<std::endl ;
-      t.m_size = 0 ;
-      t.m_data = 0 ;
+      other.m_size = 0 ;
+      other.m_data = 0 ;
      }
     
     Text & operator=( Text const & t )

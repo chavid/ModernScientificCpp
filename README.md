@@ -15,6 +15,9 @@ Those sections are availables, or will be soon:
 
 If you want to play the notebooks on a turnkey server, you can try binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
+## Virtual assitant
+
+Pythie++ has learned all the course and can answer your questions. [Try it out](https://app.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat) out!
 
 ## Some external resources
 

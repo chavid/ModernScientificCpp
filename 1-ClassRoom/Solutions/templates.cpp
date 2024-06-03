@@ -19,7 +19,7 @@ void display( std::shared_ptr<MyData> data_ptr )
 
 template <typename T, typename... Args>
 std::shared_ptr<T> make_ptr( Args... args )
- { return std::make_shared<T>(args...) ; }  
+ { return std::shared_ptr<T>{new T{args...}} ; }  
 
 int main()
  {
