@@ -10,8 +10,6 @@ Reviews the problems central to early C++, the best practices that address them,
 
 Concludes with the [Coding Dojo](99-coding-dojo.ipynb).
 
-You have some questions, or you want to challenge your knowledge ? Ask [Pythie++](https://app.corolair.com/student/tutor/df01b940-7658-4b60-abe2-70e7db0a2d73/chat) and try its quizz !
-
 
 © *CNRS 2024*  
 *This document was created by David Chamont. It is available under the [Licence Creative Commons - Attribution - No commercial use - Shared under the conditions 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)*

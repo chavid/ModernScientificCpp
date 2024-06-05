@@ -10,14 +10,17 @@ git clone https://github.com/chavid/ModernScientificCpp.git
 Those sections are availables, or will be soon:
 - [Preparation before the course](0-Preparation/README.md)
 - [From early C++ problems to modern C++ syntax](1-ClassRoom/README.md)
-- Programming idioms and standard library
-- C++ for scientific computing
+- [Programming idioms and standard library](2-ClassRoom/README.md)
+- [C++ for scientific computing](3-ClassRoom/README.md)
+- [Bonus](4-Bonus/README.md)
 
 If you want to play the notebooks on a turnkey server, you can try binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
-## Virtual assitant
+## Virtual assistant
 
-Pythie++ has learned all the course and can answer your questions. [Try it out](https://app.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat) out!
+Pythie++ has learned all the course and can answer your questions. [Try it out !](https://app.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat)
+
+Socrate++ will rather try to make you think by yourself... [Try it out](https://app.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat)
 
 ## Some external resources
 
@@ -50,3 +53,7 @@ The final common day, more dedicated to the scientific computing facets, largely
 © *CNRS 2024*  
 *This work is made available according to the terms of the*  
 [*Creative Commons License - Attribution - NonCommercial - ShareAlike 4.0 International*](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+```python
+
+```
