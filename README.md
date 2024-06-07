@@ -55,6 +55,3 @@ The final common day, more dedicated to the scientific computing facets, largely
 *This work is made available according to the terms of the*  
 [*Creative Commons License - Attribution - NonCommercial - ShareAlike 4.0 International*](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-```python
-
-```
