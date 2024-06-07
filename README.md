@@ -10,7 +10,6 @@ This training material addresses modern scientific computing in C++, for people 
 
 If you want to play the notebooks on a turnkey server, you can try binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
 
-
 ## Virtual tutors
 
 Provided by [Corolair](https://corolair.com/):
