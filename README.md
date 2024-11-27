@@ -13,8 +13,8 @@ If you want to play the notebooks on a turnkey server, you can try binder: [![Bi
 ## Virtual tutors
 
 Provided by [Corolair](https://corolair.com/):
-- [Pythie++](https://app.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat) has learned all the course and can answer your questions the best she can. [Ask her !](https://app.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat)
-- [Socrate++](https://app.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat) will rather try to make you think by yourself... [Answer him !](https://app.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat)
+- [Pythie++](https://embed.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat) has learned all the course and can answer your questions the best she can. [Ask her !](https://embed.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat)
+- [Socrate++](https://embed.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat) will rather try to make you think by yourself... [Answer him !](https://embed.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat)
 
 
 ## Some external resources
