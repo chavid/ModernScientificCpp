@@ -17,8 +17,8 @@ For some of the exercices, you will need to have **GNU time** installed where yo
 
 ## If you want to interact with the notebooks
 
-Most of the education materials is given as jupyter notebooks. You can read them on the [public project](https://github.com/chavid/ModernScientificCpp.git), and copy/paste the C++ extracts. Yet, if you want to play the notebooks directly on your machine, you will need to install:
-1. `git` so to download the files (see `teaching-material.md`) ;
+Most of the education material is given as jupyter notebooks. You can read them on the web, and copy/paste the C++ extracts. Yet, if you want to play the notebooks directly on your machine, you will need to install:
+1. `git` so to download the current repository ;
 2. [jupyter](https://jupyter.org/) ecosystem ;
 3. [xeus-cling](https://xeus-cling.readthedocs.io/en/latest/) C++ kernels for notebooks.
 

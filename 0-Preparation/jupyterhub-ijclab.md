@@ -4,15 +4,15 @@
 ## Connect
 
 - Start your internet browser.
-- Open `https://jupyterhub.ijclab.in2p3.fr/`.
+- Open `https://jupyterhub.ijclab.in2p3.fr/shibboleth`.
 - Click on `Se connecter`, then authenticate with the Renater federation of identities.
-- Click on `Start My Server`
+- Click on `Start Jupyter` or `Start JupyterLab`.
 - Here you are.
 
 ## Download the course material on the server
 
 - At the "almost top" right corner of the windows, ask for `New`/`Terminal`.
-- Get the material : `git clone https://github.com/chavid/ModernScientificCpp.git ModernScientificCpp`.
+- Get the material : `git clone <current course repository>`.
 - Go back to your previous browser window.
 
 ## Read the material

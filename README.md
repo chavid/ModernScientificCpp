@@ -23,7 +23,7 @@ Training and expertise
 - [Code Reckons](https://codereckons.com/)
 
 References
-- [Cpp Reference](cppreference.com/)
+- [Cpp Reference](https://cppreference.com/)
 - [Iso C++](https://isocpp.org/)
 
 Tools
