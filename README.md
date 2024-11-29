@@ -8,7 +8,7 @@ This training material addresses modern scientific computing in C++, for people 
 - Day 3: [C++ for scientific computing](3-ClassRoom/README.md)
 - [Bonus](4-Bonus/README.md)
 
-***CURRENTLY NOT WORKING*** If you want to play the notebooks on a turnkey server, you can try binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD)
+<!-- If you want to play the notebooks on a turnkey server, you can try binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chavid/ModernScientificCpp.git/HEAD) -->
 
 ## Virtual tutors
 
