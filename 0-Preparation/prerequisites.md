@@ -1,7 +1,7 @@
 
 # Pre-requisites: not for beginners
 
-So to take full profit of the lessons and exercices in this project, you are expected to have regularly programmed in old (<11) C++. If not, some events and resources for beginners are given below. A good way to check if you are ready is to try to solve the exercice described in the file `ref-challenge.cpp`.
+So to take full profit of the lessons and exercices in this project, you are expected to have regularly programmed in old (<11) C++. If not, some events and resources for beginners are given below. A good way to check if you are ready is to try to solve the exercice described in the file [`ref-challenge.cpp`](ref-challenge.cpp).
 
 
 ## HSF training

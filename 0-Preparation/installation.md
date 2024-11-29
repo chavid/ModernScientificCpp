@@ -22,7 +22,7 @@ Most of the education material is given as jupyter notebooks. You can read them 
 2. [jupyter](https://jupyter.org/) ecosystem ;
 3. [xeus-cling](https://xeus-cling.readthedocs.io/en/latest/) C++ kernels for notebooks.
 
-The jupyter notebooks tools are part of the [anaconda3 distribution](https://www.anaconda.com/). One can also use `miniconda` for a more focused installation (see below).
+The jupyter notebooks tools are part of the [anaconda3 distribution](https://www.anaconda.com/), but is now controversial, due to chandes in the licenses. One can also use `miniconda` for a more focused installation (see below).
 
 ### Basic installation and setup with miniconda
 
@@ -50,7 +50,7 @@ mamba install -y -c conda-forge gxx
 
 ## With docker
 
-We have also prepared some docker images with anything pre-installed, if you have docker on your machine. See `docker.md` .
+We have also prepared some docker images with anything pre-installed, if you have docker on your machine. See [`docker.md`](docker.md) .
 
 
 ## Final check

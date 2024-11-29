@@ -5,6 +5,7 @@ If you want to run the notebooks locally on your workstation, the image to be us
 
 So to start a container with this image :
 ```
+cd /path/to/your/workdir
 docker run -it --rm -p 8888:8888 -v $PWD:/work -w /work chavid/devjupytercpp:2024.3 bash
 ```
 
