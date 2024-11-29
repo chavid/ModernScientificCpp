@@ -33,9 +33,9 @@ If you want/need to compile yourself on your own machine, you may need to instal
 
 ## Practice infrastructure : use of notebooks
 
-#### Binder (***CURRENTLY NOT RECOMMENDED***)
+#### Binder (***CURRENTLY NOT WORKING***)
 
-If you want to interact directly with the notebooks, there is also a web service available, called [binder](https://mybinder.org/). So to start such a service : browse the main `README.md` file at the top of the [repository](https://github.com/chavid/ModernScientificCpp.git), and click on the "launch binder" button. The first time, because it is building a docker image on the fly, the launch time may be VERY long.
+If you want to interact directly with the notebooks, there is also a web service available, called [binder](https://mybinder.org/). So to start such a service : browse the main `README.md` file at the top of the repository, and click on the "launch binder" button. The first time, the launch time may be VERY VERY long, because it is building a docker image on the fly.
 
 #### JupyterHub@Paris-Saclay
 
