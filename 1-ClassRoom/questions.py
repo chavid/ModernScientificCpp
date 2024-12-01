@@ -51,7 +51,7 @@ int main() {
   public :
     explicit Array( unsigned s ) { data_ = new double [s]; }
     double & operator[]( unsigned i ) { return data_[i]; }
-    ~Array() { delete data_; }
+    ~Array() { delete [] data_; }
   private :
       double * data_;
  } ;
@@ -68,7 +68,7 @@ int main() {
     { 'answer': 'There will be a compilation error', 'correct': False, 'feedback': '' },
     { 'answer': 'There will be an error at runtime', 'correct': False, 'feedback': '' },
     { 'answer': '"i is less than j"', 'correct': False, 'feedback': '' },
-    { 'answer': '"i is greater than j"', 'correct': True, 'feedback': 'when interpreting "i < j", the compiler convert all the numbers "unsigned int", which it considers more accurate than "int", then the value "-1" becomes the highest possibel value than an "unsigned int" can have, therefore greater than "1". Damned !'  }
+    { 'answer': '"i is greater than j"', 'correct': True, 'feedback': 'Yes ! When interpreting "i < j", the compiler convert all the numbers "unsigned int", which it considers more accurate than "int", then the value "-1" becomes the highest possibel value than an "unsigned int" can have, therefore greater than "1". Damned !'  }
   ],
   'code':
 '''#include &lt;iostream>
@@ -93,7 +93,7 @@ int main()
   'answers': [
     { 'answer': 'There will be a compilation error', 'correct': False, 'feedback': '' },
     { 'answer': 'There will be an error at runtime', 'correct': False, 'feedback': '' },
-    { 'answer': '3', 'correct': True, 'feedback': 'when interpreting "b.m(3.14)", the compiler find some "m" function within class "B", and then does not check if the base class has some better matching function.' },
+    { 'answer': '3', 'correct': True, 'feedback': 'Yes ! When interpreting "b.m(3.14)", the compiler find some "m" function within class "B", and then does not check if the base class has some better matching function.' },
     { 'answer': '3.14', 'correct': False, 'feedback': '' },
   ],
   'code':
