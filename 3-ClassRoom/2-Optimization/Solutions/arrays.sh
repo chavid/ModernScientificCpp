@@ -15,16 +15,22 @@ shift
 # header
 echo \# ${prog} ${opt}
 
-# commands compile and first run
-rm -f tmp.${prog}.exe \
-&& g++ -std=c++${std} -O${opt} -march=native -Wall -Wextra -Wfatal-errors ${prog}.cpp -o tmp.${prog}.exe \
-&& ./tmp.${prog}.exe ${*}
+# compile
+rm -f tmp.${prog}.exe
+clang++ -std=c++${std} -O${opt} -march=native  -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -Wall -Wextra -Wfatal-errors ${prog}.cpp -o tmp.${prog}.exe > tmp.${prog}.${opt}.log 2>&1
+if [ $? -ne 0 ]; then
+  echo "COMPILATION ERROR"
+  exit 1
+fi
 
-# mean time
+# check result
+./tmp.${prog}.exe ${*}
+
+# compute mean execution time
 rm -f tmp.arrays.py
 echo "t = 0" >> tmp.arrays.py
 for i in 0 1 2 3 4 5 6 7 8 9
-do \\time -f "t += %U" -a -o ./tmp.arrays.py ./tmp.${prog}.exe ${*} >> /dev/null
+do \time -f "t += %U" -a -o ./tmp.arrays.py ./tmp.${prog}.exe ${*} >> /dev/null
 done
 echo "print('(~ {:.3f} s)'.format(t/10.))" >> tmp.arrays.py
 python3 tmp.arrays.py

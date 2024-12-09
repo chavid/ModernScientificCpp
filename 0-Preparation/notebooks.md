@@ -18,7 +18,7 @@ One issue when working with notebooks : when using a notebook, you generally mod
 
 The usual dirty workarounds apply : before pulling, either move globally your modified notebooks to a private git branch, or move/copy them to a backup directory, or even simply rename it.
 
-If you prefer to solve the conflicts, `git diff`  will not help much. The right command is rather `nbdiff` , which is not available by default (till now) in the linux distributions. You will need to install the `nbdime` package first, for example with the command `conda install -y -c conda-forge nbdime`. Actually, I do not recommend.
+If you prefer to solve the conflicts, `git diff`  will not help much. The right command is rather `nbdiff -s`, which is not available by default (till now) in the linux distributions. You will need to install the `nbdime` package first, for example with the command `conda install -y -c conda-forge nbdime`. Actually, I do not recommend.
 
 The simpler and safer way is probably to **make a copy of any notebook you want to play with**, and work with the copy. This way, if the teacher ask you to pull a modified version of the notebook, no conflict !
 

@@ -12,7 +12,7 @@ This training material addresses modern scientific computing in C++, for people 
 
 ## Virtual tutors
 
-Provided by [Corolair](https://corolair.com/):
+Provided by [Corolair](https://corolair.com/) (a password must be given by the teacher):
 - [Pythie++](https://embed.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat) has learned all the course and can answer your questions the best she can. [Ask her !](https://embed.corolair.com/student/tutor/6af69c2c-dbf1-43d3-8fad-3321257bb3fb/chat)
 - [Socrate++](https://embed.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat) will rather try to make you think by yourself... [Answer him !](https://embed.corolair.com/student/tutor/764f718b-9238-45f4-bd00-e372f638d68b/chat)
 
