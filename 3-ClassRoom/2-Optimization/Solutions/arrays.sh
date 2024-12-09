@@ -17,7 +17,7 @@ echo \# ${prog} ${opt}
 
 # compile
 rm -f tmp.${prog}.exe
-clang++ -std=c++${std} -O${opt} -march=native  -Rpass=loop-vectorize -Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -Wall -Wextra -Wfatal-errors ${prog}.cpp -o tmp.${prog}.exe > tmp.${prog}.${opt}.log 2>&1
+g++ -std=c++${std} -O${opt} -march=native -fopt-info-vec-all -Wall -Wextra -Wfatal-errors ${prog}.cpp -o tmp.${prog}.exe > tmp.${prog}.${opt}.log 2>&1
 if [ $? -ne 0 ]; then
   echo "COMPILATION ERROR"
   exit 1

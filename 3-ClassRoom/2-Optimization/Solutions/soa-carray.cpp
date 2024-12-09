@@ -5,8 +5,8 @@
 struct XY
  {
   double x, y {0.} ;
-  void saxpy( double a )
-   { y = a*x + y ; }
+//  void saxpy( double a )
+//   { y = a*x + y ; }
  } ;
 
 class SoA
@@ -26,8 +26,8 @@ class SoA
      }
   private :
     int m_size ;
-    double * m_xs ;
-    double * m_ys ;
+    double * __restrict__ m_xs ;
+    double * __restrict__ m_ys ;
  } ;
 
 void randomize_x( SoA & collection )

@@ -6,8 +6,8 @@
 struct XY
  {
   double x, y {0.} ;
-  void saxpy( double a )
-   { y = a*x + y ; }
+  //void saxpy( double a )
+  // { y = a*x + y ; }
  } ;
 
 class SoA
