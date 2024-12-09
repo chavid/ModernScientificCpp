@@ -4,11 +4,7 @@
 #include <list>
 
 struct XY
- {
-  double x, y {0.} ;
-  //void saxpy( double a )
-  // { y = a*x + y ; }
- } ;
+ { double x, y {0.} ; } ;
 
 class SoA
  {
