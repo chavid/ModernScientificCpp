@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert> // for assert
 #include <cstdlib> // for rand & atoi
+#include <format>
 
 struct XY
  {
@@ -37,32 +38,32 @@ template< typename T >
 class DynArray
  {
   public :
-    explicit DynArray( int size ) : m_size{size}, m_data{new T [size]} {}
+    explicit DynArray( std::size_t size ) : m_size{size}, m_data{new T [size]} {}
     T * begin() { return m_data ; }
     T * end() { return m_data+m_size ; }
-    int size() { return m_size ; }
-    T & operator[]( int indice ) { return m_data[indice] ; }
-    T const & operator[]( int indice ) const { return m_data[indice] ; }
+    std::size_t size() { return m_size ; }
+    T & operator[]( std::size_t indice ) { return m_data[indice] ; }
+    T const & operator[]( std::size_t indice ) const { return m_data[indice] ; }
     ~DynArray() { delete [] m_data ; }
   private :
-    int m_size ;
+    std::size_t m_size ;
     T * m_data ;
  } ;
 
 int main( int argc, char * argv[] )
  {
   assert(argc==3) ;
-  int size {atoi(argv[1])} ;
-  int repeat {atoi(argv[2])} ;
-  std::cout.precision(18) ;
+  std::size_t size {std::strtoull(argv[1],nullptr,10)} ;
+  std::size_t repeat {std::strtoull(argv[2],nullptr,10)} ;
 
   DynArray<XY> collection(size) ;
   auto begin {std::begin(collection)} ;
   auto end {std::end(collection)} ;
 
   randomize_x(begin,end) ;
+  double volatile a {0.1} ;
   while (repeat--)
-    saxpy(begin,end,0.1) ;
+    saxpy(begin,end,a) ;
   double res {accumulate_y(begin,end)/size} ;
-  std::cout<<res<<std::endl ;
+  std::cout<<std::format("{}",res)<<std::endl ;
  }

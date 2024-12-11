@@ -69,7 +69,7 @@ class Text
     
   private :
     
-    unsigned int m_size ;
+    std::size_t m_size ;
     char * m_data ;
  } ;
  
@@ -78,7 +78,7 @@ Text hello()
 
 Text uppercase( Text t )
  {
-  for ( unsigned int i=0 ; i<t.taille() ; ++i )
+  for ( std::size_t i=0 ; i<t.taille() ; ++i )
    { t[i] = std::toupper(t[i]) ; }
   return t ;
  }

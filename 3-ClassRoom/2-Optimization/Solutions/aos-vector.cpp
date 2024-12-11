@@ -2,6 +2,7 @@
 #include <cassert> // for assert
 #include <cstdlib> // for rand
 #include <vector>
+#include <format>
 
 struct XY
  {
@@ -37,17 +38,17 @@ double accumulate_y( Itr begin, Itr end )
 int main( int argc, char * argv[] )
  {
   assert(argc==3) ;
-  int size {atoi(argv[1])} ;
-  int repeat {atoi(argv[2])} ;
-  std::cout.precision(18) ;
+  std::size_t size {std::strtoull(argv[1],nullptr,10)} ;
+  std::size_t repeat {std::strtoull(argv[2],nullptr,10)} ;
 
   std::vector<XY> collection(size) ;
   auto begin {std::begin(collection)} ;
   auto end {std::end(collection)} ;
 
   randomize_x(begin,end) ;
+  double volatile a {0.1} ;
   while (repeat--)
-    saxpy(begin,end,0.1) ;
+    saxpy(begin,end,a) ;
   double res {accumulate_y(begin,end)/size} ;
-  std::cout<<res<<std::endl ;
+  std::cout<<std::format("{}",res)<<std::endl ;
  }

@@ -57,7 +57,7 @@ double analyse2( std::valarray<double> const & data, int power )
 
 int main( int argc, char * argv[] ) {
   assert(argc==3) ;
-  int size {atoi(argv[1])} ;
+  std::size_t size {atoull(argv[1])} ;
   int power {atoi(argv[2])} ;
 
   auto datas = time("gen",generate,size) ;

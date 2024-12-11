@@ -36,8 +36,8 @@ real accumulate_y( std::vector<XY> const & collection )
 int main( int argc, char * argv[] )
  {
   assert(argc==3) ;
-  int size {atoi(argv[1])} ;
-  int repeat {atoi(argv[2])} ;
+  std::size_t size {atoull(argv[1])} ;
+  std::size_t repeat {atoull(argv[2])} ;
   std::cout.precision(18) ;
 
   std::vector<XY> collection(size) ;

@@ -49,7 +49,7 @@ Text hello()
 
 Text uppercase( Text t )
  {
-  for ( unsigned int i=0 ; i<t.size() ; ++i )
+  for ( std::size_t i=0 ; i<t.size() ; ++i )
    { t[i] = std::toupper(t[i]) ; }
   return t ;
  }

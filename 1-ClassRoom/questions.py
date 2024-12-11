@@ -49,8 +49,8 @@ int main() {
   'code':
 '''class Array {
   public :
-    explicit Array( unsigned s ) { data_ = new double [s]; }
-    double & operator[]( unsigned i ) { return data_[i]; }
+    explicit Array( std::size_t s ) { data_ = new double [s]; }
+    double & operator[]( std::size_t i ) { return data_[i]; }
     ~Array() { delete [] data_; }
   private :
       double * data_;

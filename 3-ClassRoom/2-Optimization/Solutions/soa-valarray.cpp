@@ -2,6 +2,7 @@
 #include <cassert> // for assert
 #include <cstdlib> // for rand
 #include <valarray>
+#include <format>
 
 struct XY
  { double x, y {0.} ; } ;
@@ -9,8 +10,8 @@ struct XY
 class SoA
  {
   public :
-    SoA( int size ) : m_xs(size), m_ys(size) {}
-    XY operator()( int indice ) const
+    SoA( std::size_t size ) : m_xs(size), m_ys(size) {}
+    XY operator()( std::size_t indice ) const
      { return { m_xs[indice], m_ys[indice] } ; }
     auto & xs() { return m_xs ; }
     auto & ys() { return m_ys ; }
@@ -39,14 +40,14 @@ double accumulate_y( SoA & collection )
 int main( int argc, char * argv[] )
  {
   assert(argc==3) ;
-  int size {atoi(argv[1])} ;
-  int repeat {atoi(argv[2])} ;
-  std::cout.precision(18) ;
+  std::size_t size {std::strtoull(argv[1],nullptr,10)} ;
+  std::size_t repeat {std::strtoull(argv[2],nullptr,10)} ;
 
   SoA collection(size) ;
   randomize_x(collection) ;
+  double volatile a {0.1} ;
   while (repeat--)
-    collection.saxpy(0.1) ;
+    collection.saxpy(a) ;
   double res = accumulate_y(collection)/size ;
-  std::cout<<res<<std::endl ;
+  std::cout<<std::format("{}",res)<<std::endl ;
  }
