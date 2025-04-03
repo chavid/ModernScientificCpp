@@ -17,7 +17,7 @@ echo \# ${prog} ${opt}
 
 # compile
 rm -f tmp.${prog}.exe
-g++ -std=c++${std} -O${opt} -march=native -funroll-loops -fopt-info-vec-all -Wall -Wextra -Wfatal-errors ${prog}.cpp -o tmp.${prog}.exe > tmp.${prog}.${opt}.log 2>&1
+g++ -std=c++${std} -O${opt} -march=native -mtune=native -funroll-loops -fopt-info-vec-all -Wall -Wextra -Wfatal-errors ${prog}.cpp -o tmp.${prog}.exe > tmp.${prog}.${opt}.log 2>&1
 if [ $? -ne 0 ]; then
   echo "COMPILATION ERROR"
   exit 1
