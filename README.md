@@ -37,7 +37,7 @@ Courses
 - [Learn Cpp](https://www.learncpp.com/)
 
 Blogs
-- [Modernes Cpp](http://modernescpp.com/)
+- [Modernes C++](http://modernescpp.com/)
 - [Simplify C++](https://arne-mertz.de)
 - [Fluent C++](https://www.fluentcpp.com/)
 - [Hacking C++](https://hackingcpp.com/)

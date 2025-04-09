@@ -10,7 +10,7 @@ questions_dict = {
 
 'BasicChallenge': {
   'type': 'multiple_choice', 
-  'question': 'What is displayed ?',
+  'question': '1. What is displayed ?',
   'answers': [
     { 'answer': 'It will fail to compile MyInteger', 'correct': True, 'feedback': 'True. The final ";" is lacking' },
     { 'answer': 'There will be a runtime error', 'correct': False },
@@ -37,7 +37,7 @@ int main() {
 
 'DynamicMemory': {
   'type': 'multiple_choice', 
-  'question': 'Should I copy such an array?',
+  'question': '2. Should I copy such an array?',
   'answers': [
     { 'answer': 'Yes. The copy constructor is added by the compiler', 'correct': False, 'feedback': 'the implicit copy constructor is perforing a shallow copy, not relevant here.' },
     { 'answer': 'No. The operator=() is lacking', 'correct': True, 'feedback': 'when dynamic resources are involved (here heap memory), one must redefine the copy constructor, the copy assignment operator... and also now the move constructor and the move assignment operator.' },
@@ -63,7 +63,7 @@ int main() {
 
 'Conversions': {
   'type': 'multiple_choice', 
-  'question': 'What is displayed?',
+  'question': '3. What is displayed?',
   'answers': [
     { 'answer': 'There will be a compilation error', 'correct': False, 'feedback': '' },
     { 'answer': 'There will be an error at runtime', 'correct': False, 'feedback': '' },
@@ -89,7 +89,7 @@ int main()
 
 'Inheritance': {
   'type': 'multiple_choice', 
-  'question': 'What is displayed ?',
+  'question': '4. What is displayed ?',
   'answers': [
     { 'answer': 'There will be a compilation error', 'correct': False, 'feedback': '' },
     { 'answer': 'There will be an error at runtime', 'correct': False, 'feedback': '' },
@@ -122,7 +122,7 @@ int main()
 
 'FloatingPoint': {
   'type': 'multiple_choice', 
-  'question': 'Why is it returning false?',
+  'question': '5. Why is it returning false?',
   'answers': [
     { 'answer': 'Never iterate with a real variable (index)', 'correct': False, 'feedback': '"never" is overkill, one sometimes needs to.' },
     { 'answer': 'Never compare floats with ==', 'correct': True, 'feedback': 'As a general rule, floating operations are never perfectly exacts ; any floating comparison should allow an epsilon error.' },
@@ -147,7 +147,7 @@ int main()
 
 'Polymorphism': {
   'type': 'multiple_choice', 
-  'question': 'What is lacking below?',
+  'question': '6. What is lacking below?',
   'answers': [
     { 'answer': 'One "virtual"', 'correct': True, 'feedback': 'The destructor should be virtual, because "display()" is.' },
     { 'answer': 'Several "virtual"', 'correct': False, 'feedback': 'Which ones ??' },
@@ -187,7 +187,7 @@ random.shuffle(questions_list)
 
 from jupyterquiz import display_quiz
 if args.nb==0:
-  display_quiz(questions_list, question_alignment='left', max_width=1000 )
+  display_quiz(questions_list, question_alignment='left', max_width=1000, shuffle_answers=False )
 else:
-  display_quiz(questions_list, args.nb, question_alignment='left', max_width=1000 )
+  display_quiz(questions_list, args.nb, question_alignment='left', max_width=1000, shuffle_answers=False )
 

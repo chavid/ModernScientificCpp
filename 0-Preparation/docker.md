@@ -1,7 +1,7 @@
 
 # Use of predefined docker images
 
-If you want to run the notebooks locally on your workstation, the image to be used for most notebooks and examples is `chavid/devjupytercpp:2024.3` (available from the docker hub).
+If you want to run the notebooks locally on your workstation, the image to be used for most notebooks and examples is `chavid/devjupytercpp:2025.4` (available from the docker hub).
 
 So to start a container with this image :
 ```

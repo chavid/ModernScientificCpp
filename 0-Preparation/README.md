@@ -37,9 +37,11 @@ If you want/need to compile yourself on your own machine, you may need to instal
 
 If you want to interact directly with the notebooks, there is also a web service available, called [binder](https://mybinder.org/). So to start such a service : browse the main `README.md` file at the top of the repository, and click on the "launch binder" button. The first time, the launch time may be VERY VERY long, because it is building a docker image on the fly.
 
-#### JupyterHub@Paris-Saclay
+#### JupyterHub@Paris-Saclay (OBSOLETE)
 
 If you have an account in the RENATER federation, you may use [JupyterHub@Paris-Saclay](https://jupyterhub.ijclab.in2p3.fr/shibboleth) (see [`jupyterhub-ijclab.md`](jupyterhub-ijclab.md)). Once your server is started, you will need to clone there the training material.
+
+#### MyDocker@Paris-Saclay (SOON...)
 
 #### On your own machine, with docker
 
