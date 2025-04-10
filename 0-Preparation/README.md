@@ -17,6 +17,8 @@ This is especially needed if you may want to *play* the notebooks, using one of 
 
 #### Pre-installed computers ?
 
+IDRIS computers : check with the teachers.
+
 If the course takes place in a real classroom, with dedicated computers, those computers may be pre-installed with the necessary software. If you are following the course from a distance, or you have been asked to bring your own portable computers, and/or you want to be able to work on your own outside the classroom: please read the following.
 
 #### Web online compilers
@@ -32,6 +34,8 @@ If you want/need to compile yourself on your own machine, you may need to instal
 
 
 ## Practice infrastructure : use of notebooks
+
+#### IDRIS computers : check with the teachers.
 
 #### Binder (***CURRENTLY NOT WORKING***)
 
